@@ -3,8 +3,13 @@
 #include <Windows.h> 
 #include <string.h> 
  
-using namespace std; class project 
-{     public:         project();         virtual ~project();         void newSentence();  
+using namespace std; 
+class project 
+{     
+ public:         
+ project();         
+ virtual ~project();         
+ void newSentence();  
 }; 
 project::project() 
 { 
